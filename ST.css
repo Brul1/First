@@ -1,0 +1,54 @@
+body{
+	margin:0;
+}
+header{
+	display:flex;
+	justify-content:space-around;
+
+}
+header h1{
+	display:inline-block;
+}
+
+
+.one{
+	background-image:Url("IMG/bg-image.jpg");
+
+}
+.one>div {
+	display: inline-block;
+	margin-left:150px;
+	margin-top: 200px;
+	height:550px;
+	width: 550px;
+
+}
+.one *{
+	margin:25px;
+}
+
+.buttonone {
+	background-color:rgba(0, 0, 0, .0);
+	border-radius: 20px;
+}
+.buttonorange {
+	background-color:rgb(255,140,8);
+	border-radius: 20px;
+}
+
+
+
+
+.two>div{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
